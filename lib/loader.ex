@@ -21,6 +21,6 @@ defmodule Loader do
   end
 
   defp print_spinner do
-    IO.write(".")
+    IO.write("=")
   end
 end

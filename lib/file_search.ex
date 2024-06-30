@@ -2,7 +2,6 @@ defmodule FileSearch do
   @moduledoc """
   Documentation for `FileSearch`.
   """
-
   def main(args) do
     {opts, _, _} = OptionParser.parse(args, switches: [path: :string, query: :string])
     
